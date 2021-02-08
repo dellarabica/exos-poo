@@ -32,4 +32,14 @@ Class Mage extends Humain{
     }
 
 }
+
+Class Orc extends Race{
+    public function __construct(){
+        $this->setRace('Orc');
+    }
+
+    public function setRace($rc){
+        return parent::setRace($rc);
+    }
+}
 ?>
