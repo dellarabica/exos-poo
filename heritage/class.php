@@ -2,10 +2,6 @@
 Class Race{
     private $_race;
 
-    public function __construct(){
-
-    }
-
     public function setRace($rc){
         $this->_race = $rc;
     }
