@@ -50,4 +50,5 @@ class Etudiant{
 $stu1 = new Etudiant('Dupont', 'Jean', '25', 'L3 Médecine');
 
 echo 'L\'étudiant se nomme ',$stu1->getPrenom(),' ',$stu1->getNom(),', il a ',$stu1->getAge(),' ans et est en ',$stu1->getProm(),' <br/>';
+
 ?>
